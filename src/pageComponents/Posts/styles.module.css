@@ -1,0 +1,35 @@
+.container {
+    @apply mx-20 py-8;
+}
+
+.title {
+    @apply text-4xl font-bold mb-8 flex-1;
+}
+
+.postsGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.postContainer {
+    @apply bg-white dark:bg-gray-800 shadow-md hover:shadow-lg rounded-lg;
+}
+
+.postImage {
+    @apply w-full h-48 object-cover rounded-t-lg;
+}
+
+.postTitle {
+    @apply text-xl font-bold mb-2;
+}
+
+.postDescription {
+    @apply leading-snug mb-4;
+}
+
+.readMore {
+    @apply text-white font-bold py-2 px-4;
+}
+
+.addPost {
+    @apply bg-blue-700 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded h-10;
+}

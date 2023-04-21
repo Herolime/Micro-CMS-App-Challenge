@@ -1,0 +1,11 @@
+.article {
+    @apply max-w-3xl mx-auto;
+}
+
+.title {
+    @apply text-4xl font-bold mb-2;
+}
+
+.image {
+    @apply mb-8 rounded-lg shadow-md;
+}

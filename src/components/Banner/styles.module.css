@@ -1,0 +1,5 @@
+.bannerContainer {
+    @apply bg-cover bg-center text-white py-24 px-10 object-fill;
+    background-image: url(https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    height: 420px;
+}

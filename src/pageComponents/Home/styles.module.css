@@ -1,0 +1,33 @@
+.bodyContainer {
+    @apply flex flex-row justify-around gap-7 mx-5;
+}
+
+.homeSection {
+    @apply flex flex-col gap-5 flex-1;
+}
+
+.youtube {
+    @apply w-full h-96;
+}
+
+.latestPostContainer {
+    @apply flex flex-row gap-5;
+}
+
+.latestPostImage {
+    width: 180px;
+    height: 180px;
+}
+
+.latestPostText {
+
+}
+
+.postsContainer {
+    @apply flex flex-row gap-5;
+}
+
+.postImage {
+    width: 180px;
+    height: 180px;
+}
