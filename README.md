@@ -8,7 +8,7 @@ First, install the necessary packages:
 yarn install
 ```
 
-First, run the development server:
+Then, run the development server:
 
 ```bash
 npm run dev
